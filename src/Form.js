@@ -5,9 +5,9 @@ function Form() {
     return (
         <div className='body' >
             <form className='center'>
-              <header><h1>Link Shortner</h1></header>
+              <h1>Link Shortner</h1>
               <input className='input' placeholder="Enter URL here" type="text" name="Enter URL"></input>
-             <input className='button' type="submit" ></input>
+             <input className='button' type="submit" value="Shorten"></input>
              </form>
         </div>
     )
